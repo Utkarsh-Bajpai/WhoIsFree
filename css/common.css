@@ -1,0 +1,82 @@
+.contentmain{
+	min-height: 80vh;
+}
+footer img{
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-width-100{
+	width: 100%;
+}
+
+.extramural{
+	
+}
+.text-underline{
+	text-decoration: underline;
+}
+footer{
+	padding-top: 50px;
+	border-top: solid 2px black;
+	text-align: center;
+}
+@media (min-width:769px){
+	footer .contentdiv{
+		margin-top: -30px !important;
+	}
+}
+.modal-dialog, .modal-content{
+	background-color: #f2f2f2;
+}
+.modal h3{
+	color: blue !important;
+}
+.modal button[type='submit']{
+	margin-top: 20px;
+}
+footer .developed{
+	color: #585656;
+}
+.searchtable tr:nth-child(1)
+{
+	background-color: #ccf;
+}
+.searchtable tr:nth-child(2){
+	background-color: #99ccff;
+}
+.searchtable .lunch{
+	background-color: #c0c0c0;
+}
+.searchtable .lunchtext{
+	vertical-align: middle;
+	margin-top: 120px;
+	display: inline-block;
+}
+table{
+	padding: 15px !important;
+	text-align: center !important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+.searchtable tr td:nth-child(1){
+	background-color: #c0c0c0;
+}
+.searchtable tr th:nth-child(1){
+	background-color: #c0c0c0;
+}
+.searchtable .extramural{
+	background-color: #f2f2f2;
+}
+.timetablediv{
+	background-color: #f2f2f2;
+	padding: 5px;
+}
+.timetablename{
+
+}
+.timetableimg{
+	width:98%;
+	height:50vh;
+}

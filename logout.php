@@ -1,0 +1,9 @@
+<?php
+$_SESSION['user']=null;
+$_SESSION['admin']=null;
+$_SESSION['database']=null;
+$_SESSION['regerror']=null;
+$_SESSION['found_user']=null;
+session_destroy();
+header("Location:index.php");
+?>
